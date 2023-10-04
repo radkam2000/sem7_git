@@ -22,4 +22,7 @@ public class Main {
     public static void funkcja2(){
         System.out.println("branch 2");
     }
+    public static void funkcja3(){
+        System.out.println("cos cos cos");
+    }
 }
