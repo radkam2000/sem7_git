@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    public static void test(String napis){
-        System.out.println(napis);
+    public static void funkcja1(){
+        System.out.println("Funkcja pierwsza");
     }
 }
