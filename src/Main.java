@@ -15,7 +15,7 @@ public class Main {
         }
     }
 
-    public static void test(String napis){
-        System.out.println(napis);
+    public static void test(){
+        System.out.println("test");
     }
 }
