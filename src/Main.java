@@ -18,4 +18,8 @@ public class Main {
     public static void funkcja1(){
         System.out.println("Funkcja pierwsza");
     }
+
+    public static void funkcja2(){
+        System.out.println("branch 2");
+    }
 }
