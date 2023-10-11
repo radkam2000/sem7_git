@@ -4,8 +4,13 @@ public class Main {
     public static void main(String[] args) {
         Teacher t = new Teacher("Employeee number");
         Student s = new Student("index number");
-        System.out.println(s.HumanId());
-        System.out.println(t.HumanId());
-    }
 
+        Main main = new Main();
+        main.print(t);
+        main.print(s);
+
+    }
+    public void print(IPeopleInfo i){
+        System.out.println(i.HumanId());
+    }
 }
