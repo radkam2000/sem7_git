@@ -1,4 +1,5 @@
-import java.util.List;
+package FoodDelivery;
+
 import java.util.Random;
 
 
@@ -17,7 +18,7 @@ public class Order {
         Random rand = new Random();
         int totalAmt = rand.nextInt(100) * getItemQuantity();
         setTotalBill(totalAmt);
-        System.out.println("Order with order id "
+        System.out.println("FoodDelivery.Order with order id "
                 + getOrderId()
                 + " has a total bill amount of "
                 + getTotalBill());

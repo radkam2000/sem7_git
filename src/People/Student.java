@@ -1,3 +1,5 @@
+package People;
+
 public class Student implements IPeopleInfo{
     private String index;
 

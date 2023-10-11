@@ -1,3 +1,5 @@
+package People;
+
 public class Teacher implements IPeopleInfo{
     private String EmplyoeeNumber;
 
